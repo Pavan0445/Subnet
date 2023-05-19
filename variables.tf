@@ -7,5 +7,5 @@ variable "vpcsubnet"{
 }
 
 variable "subnettags"{
-    type = string
+    type = map(string)
 }
