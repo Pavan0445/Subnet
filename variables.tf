@@ -3,7 +3,7 @@ variable "iprange2"{
 }
 
 variable "vpcsubnet"{
-    type = map(list(string))
+    type = string
 }
 variable "subnettags"{
     type = list(string)
